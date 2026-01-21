@@ -12,6 +12,8 @@ env:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
 
     steps:
     - uses: actions/checkout@v4
@@ -29,3 +31,11 @@ jobs:
       with:
         name: lynx-vmix.exe
         path: target/release/lynx-vmix.exe
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      with:
+        files: target/release/lynx-vmix.exe
+        tag_name: build-${{ github.sha }}
+        name: Build ${{ github.sha }}
