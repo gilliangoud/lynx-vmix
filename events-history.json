@@ -1,0 +1,242 @@
+{
+  "20H": {
+    "event_name": "20H Open 1000m 111m",
+    "event_number": "20H",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "146",
+        "name": "Malcolm KENNETT",
+        "affiliation": "BURN",
+        "time": "1:56.54",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "3",
+        "id": "148",
+        "name": "Faith GORRY",
+        "affiliation": "VAN",
+        "time": "2:09.68",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "149",
+        "name": "Samaira NEMETH",
+        "affiliation": "MISS",
+        "time": "2:11.58",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "4",
+        "id": "150",
+        "name": "Abigail WEBER",
+        "affiliation": "LAN",
+        "time": "2:15.72",
+        "delta_time": ""
+      }
+    ]
+  },
+  "15A": {
+    "event_name": "15A Group 1 1500m 111m",
+    "event_number": "15A",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "101",
+        "name": "Kai BARNETT",
+        "affiliation": "VAN",
+        "time": "2:24.74",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "106",
+        "name": "Arthur YI",
+        "affiliation": "TRI",
+        "time": "2:27.06",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "4",
+        "id": "109",
+        "name": "Cyrus HO",
+        "affiliation": "RICH",
+        "time": "2:27.84",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "3",
+        "id": "102",
+        "name": "Louie TOTH",
+        "affiliation": "TRI",
+        "time": "2:29.41",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "7",
+        "id": "107",
+        "name": "Aaron LIU",
+        "affiliation": "RICH",
+        "time": "2:34.60",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "5",
+        "id": "108",
+        "name": "Keanna ROYCE",
+        "affiliation": "TRI",
+        "time": "2:39.43",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "6",
+        "id": "110",
+        "name": "Arya JAHNS",
+        "affiliation": "BURN",
+        "time": "2:57.17",
+        "delta_time": ""
+      }
+    ]
+  },
+  "20F": {
+    "event_name": "20F Open 1000m 111m",
+    "event_number": "20F",
+    "results": [
+      {
+        "place": "1",
+        "lane": "2",
+        "id": "139",
+        "name": "Nathan XU",
+        "affiliation": "TRI",
+        "time": "1:49.02",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "3",
+        "id": "133",
+        "name": "Paulina DAVYDOVA",
+        "affiliation": "PEN",
+        "time": "1:49.37",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "5",
+        "id": "135",
+        "name": "Justin LEE",
+        "affiliation": "BURN",
+        "time": "1:49.42",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "6",
+        "id": "142",
+        "name": "Alexa LIM",
+        "affiliation": "TRI",
+        "time": "1:51.16",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "4",
+        "id": "129",
+        "name": "Carter RAE",
+        "affiliation": "SARD",
+        "time": "1:51.27",
+        "delta_time": ""
+      },
+      {
+        "place": "",
+        "lane": "1",
+        "id": "134",
+        "name": "Magnus KING",
+        "affiliation": "RICH",
+        "time": "",
+        "delta_time": ""
+      }
+    ]
+  },
+  "15B": {
+    "event_name": "15B Group 1 1500m 111m",
+    "event_number": "15B",
+    "results": [
+      {
+        "place": "1",
+        "lane": "5",
+        "id": "103",
+        "name": "Heath KENNETT",
+        "affiliation": "BURN",
+        "time": "2:27.93",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "4",
+        "id": "111",
+        "name": "Connor CRAIG",
+        "affiliation": "CAL",
+        "time": "2:31.53",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "7",
+        "id": "105",
+        "name": "Jacob BEESLEY",
+        "affiliation": "KAM",
+        "time": "2:31.67",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "6",
+        "id": "113",
+        "name": "Jared ROBERTS",
+        "affiliation": "KAM",
+        "time": "2:57.98",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "114",
+        "name": "Derin MCKINNON-BUBEROGLU",
+        "affiliation": "ESQ",
+        "time": "2:38.94",
+        "delta_time": ""
+      },
+      {
+        "place": "",
+        "lane": "2",
+        "id": "104",
+        "name": "Jashjit CHAUHAN",
+        "affiliation": "MAT",
+        "time": "",
+        "delta_time": ""
+      },
+      {
+        "place": "",
+        "lane": "3",
+        "id": "112",
+        "name": "Sophia CAIRO MARTINEZ",
+        "affiliation": "BURN",
+        "time": "",
+        "delta_time": ""
+      }
+    ]
+  }
+}
