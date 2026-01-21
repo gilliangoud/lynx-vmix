@@ -38,7 +38,8 @@ async fn index() -> Html<&'static str> {
             async function poll() {
                 try {
                     let res = await fetch('/live');
-                    let data = await res.json();
+                    let json = await res.json();
+                    let data = json[0];
                     
                     document.getElementById('time').innerText = data.time || "--:--.--";
                     
@@ -85,7 +86,15 @@ async fn index() -> Html<&'static str> {
 
 async fn get_live(State(state): State<SharedState>) -> Json<Value> {
     let s = state.read();
-    Json(serde_json::to_value(&*s).unwrap())
+    let response = serde_json::json!([{
+        "time": s.time,
+        "running": s.running,
+        "results": s.results,
+        "messages": s.messages,
+        "event_name": s.event_name,
+        "event_number": s.event_number
+    }]);
+    Json(response)
 }
 
 async fn get_races(State(state): State<SharedState>) -> Json<Value> {

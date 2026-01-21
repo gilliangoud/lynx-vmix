@@ -17,7 +17,7 @@ fn main() {
     if args.contains(&"--debug".to_string()) {
         unsafe { std::env::set_var("RUST_LOG", "debug"); }
     }
-    env_logger::init();
+    env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info")).init();
     
     let event_loop = EventLoop::new();
     
