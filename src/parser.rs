@@ -194,10 +194,11 @@ impl LynxParser {
 
             // Result Heuristic: 
             // 1. Starts with Number (Place)
-            // 2. OR Starts with empty but has ID/Lane?
+            // 2. OR Has valid Lane OR Has valid ID
             let could_be_result = fields_clean.len() >= 4 && (
                 fields_clean[0].parse::<u32>().is_ok() || 
-                (!fields_clean[1].is_empty() && !fields_clean[2].is_empty())
+                !fields_clean[1].is_empty() || 
+                !fields_clean[2].is_empty()
             );
             
             if could_be_result {
