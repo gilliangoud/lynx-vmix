@@ -78,13 +78,34 @@ impl LynxParser {
 
     fn process_ascii_time(&mut self) {
         // "  12:16:03.0  "
-        // Sometimes multiple packets arrive together: "  12:16:03.0    12:16:03.1  "
+        // Or "*start12:16:03.0"
         if let Ok(s) = String::from_utf8(self.buffer.clone()) {
-            // Split by whitespace to separate potential concatenated times
             let parts: Vec<&str> = s.split_whitespace().collect();
             
-            // Find the last part that looks like a time (contains ':')
-            let last_valid_time = parts.iter().rfind(|p| p.contains(':') && !p.contains(',') && !p.contains(';'));
+            // Check for Gun Start
+            let gun_start_part = parts.iter().find(|p| p.contains("*start"));
+            if let Some(part) = gun_start_part {
+                // "*start10:00:00.0" -> extract "10:00:00.0"
+                let time_str = part.replace("*start", "");
+                if !time_str.is_empty() {
+                    debug!("Parsed Gun Time: '{}'", time_str);
+                    let mut state = self.state.write();
+                    state.gun_time = time_str.clone();
+                    // Also update history if we have an event number
+                     if !state.event_number.is_empty() {
+                         let key = state.event_number.clone();
+                         state.races.entry(key)
+                             .and_modify(|race| race.gun_time = time_str.clone());
+                     }
+                }
+            }
+
+            // Standard Running Time
+            // Find the last part that looks like a time (contains ':') AND isn't the gun start packet itself if it was mixed?
+            // Usually *start comes alone.
+            // But if we have "*start10..." standard time parsing might trip or just ignore it if we are careful.
+            
+            let last_valid_time = parts.iter().rfind(|p| p.contains(':') && !p.contains(',') && !p.contains(';') && !p.contains("*start"));
             
             if let Some(time_str) = last_valid_time {
                  debug!("Parsed ASCII Time: '{}'", time_str);
@@ -234,6 +255,7 @@ impl LynxParser {
                  if !s.event_number.is_empty() {
                      let key = s.event_number.clone();
                      let evt_name = s.event_name.clone();
+                     let current_gun_time = s.gun_time.clone();
                      
                      s.races.entry(key.clone())
                          .and_modify(|race| {
@@ -247,6 +269,7 @@ impl LynxParser {
                              crate::state::RaceData {
                                  event_name: evt_name,
                                  event_number: key,
+                                 gun_time: current_gun_time,
                                  results: vec![res],
                              }
                          });

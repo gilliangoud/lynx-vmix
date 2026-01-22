@@ -9,6 +9,7 @@ pub struct ScoreboardState {
     pub messages: Vec<String>,
     pub event_name: String,
     pub event_number: String,
+    pub gun_time: String,
     
     // History of races, keyed by event_number
     pub races: HashMap<String, RaceData>,
@@ -21,6 +22,7 @@ pub struct ScoreboardState {
 pub struct RaceData {
     pub event_name: String,
     pub event_number: String,
+    pub gun_time: String,
     pub results: Vec<AthleteResult>,
 }
 

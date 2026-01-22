@@ -92,7 +92,8 @@ async fn get_live(State(state): State<SharedState>) -> Json<Value> {
         "results": s.results,
         "messages": s.messages,
         "event_name": s.event_name,
-        "event_number": s.event_number
+        "event_number": s.event_number,
+        "gun_time": s.gun_time
     }]);
     Json(response)
 }
