@@ -193,6 +193,7 @@ impl LynxParser {
                 debug!("Detected Header: {}", clean);
                 let mut s = self.state.write();
                 s.results.clear(); // Start of new list
+                s.header = clean.to_string(); // Store header
                 
                 // Parse header fields
                 let params: Vec<&str> = clean.split(',').collect();
@@ -267,14 +268,16 @@ impl LynxParser {
                      s.results.push(res.clone());
                  }
                  
-                 // Update History
+                     // Update History
                  if !s.event_number.is_empty() {
                      let key = s.event_number.clone();
                      let evt_name = s.event_name.clone();
                      let current_gun_time = s.gun_time.clone();
+                     let current_header = s.header.clone();
                      
                      s.races.entry(key.clone())
                          .and_modify(|race| {
+                             race.header = current_header.clone(); // Update header
                              let hist_idx = race.results.iter().position(|r| {
                                  (!res.lane.is_empty() && r.lane == res.lane) ||
                                  (res.lane.is_empty() && !res.place.is_empty() && r.place == res.place) ||
@@ -292,6 +295,7 @@ impl LynxParser {
                                  event_name: evt_name,
                                  event_number: key,
                                  gun_time: current_gun_time,
+                                 header: current_header,
                                  results: vec![res],
                              }
                          });
@@ -402,3 +406,5 @@ impl LynxParser {
         // Legacy
     }
 }
+
+
