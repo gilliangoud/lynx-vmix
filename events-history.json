@@ -1,62 +1,151 @@
 {
-  "11A": {
-    "event_name": "F 1500 (111) Qual 11A",
-    "event_number": "11A",
+  "13C": {
+    "event_name": "M 1500 (111) Qual 13C",
+    "event_number": "13C",
     "gun_time": "",
-    "header": "OFFICIAL,F 1500 (111) Qual 11A,nwi,11A,1,1,11A-1-01,AUTO,6",
+    "header": "UNOFFICIAL,M 1500 (111) Qual 13C,nwi,13C,1,1,13C-1-01,AUTO,8",
     "results": [
       {
         "place": "1",
         "lane": "2",
-        "id": "141",
-        "name": "Keanna ROYCE",
-        "affiliation": "POCO",
-        "time": "2:47.544",
+        "id": "137",
+        "name": "Zion PARK",
+        "affiliation": "BC",
+        "time": "2:38.492",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "8",
+        "id": "151",
+        "name": "Nathan XU",
+        "affiliation": "BC",
+        "time": "2:38.540",
         "delta_time": ""
       },
       {
         "place": "3",
+        "lane": "7",
+        "id": "115",
+        "name": "Victor HE",
+        "affiliation": "BC",
+        "time": "2:38.572",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
         "lane": "1",
-        "id": "153",
-        "name": "Emma YUN",
-        "affiliation": "TPE",
-        "time": "2:48.073",
+        "id": "108",
+        "name": "Zion CHOI",
+        "affiliation": "BC",
+        "time": "2:38.924",
         "delta_time": ""
       },
       {
         "place": "5",
+        "lane": "6",
+        "id": "127",
+        "name": "Peter MAHON",
+        "affiliation": "YEL",
+        "time": "2:47.718",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "4",
+        "id": "139",
+        "name": "Anhao QIAO",
+        "affiliation": "VAN",
+        "time": "2:50.424",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "5",
+        "id": "119",
+        "name": "Christopher KENDRICK",
+        "affiliation": "CAL",
+        "time": "2:52.288",
+        "delta_time": ""
+      },
+      {
+        "place": "8",
         "lane": "3",
-        "id": "126",
-        "name": "June LYNCH",
-        "affiliation": "PR",
-        "time": "2:49.444",
+        "id": "200",
+        "name": "Jesse THIBEAULT",
+        "affiliation": "LAN",
+        "time": "2:53.798",
+        "delta_time": ""
+      }
+    ]
+  },
+  "13A": {
+    "event_name": "M 1500 (111) Qual 13A",
+    "event_number": "13A",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Qual 13A,nwi,13A,1,1,13A-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "7",
+        "lane": "1",
+        "id": "147",
+        "name": "Zack THIBEAULT",
+        "affiliation": "LAN",
+        "time": "2:48.661",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "142",
+        "name": "Arjen SANDER",
+        "affiliation": "VAN",
+        "time": "2:38.833",
+        "delta_time": ""
+      },
+      {
+        "place": "1",
+        "lane": "3",
+        "id": "129",
+        "name": "Seiya MCEACHERN",
+        "affiliation": "YEL",
+        "time": "2:38.778",
         "delta_time": ""
       },
       {
         "place": "4",
         "lane": "4",
-        "id": "131",
-        "name": "Alexandra MUELLER",
-        "affiliation": "BC",
-        "time": "2:48.910",
-        "delta_time": ""
-      },
-      {
-        "place": "2",
-        "lane": "5",
-        "id": "122",
-        "name": "Julianne LAZZARI",
-        "affiliation": "CAL",
-        "time": "2:47.700",
+        "id": "124",
+        "name": "Ethan LEUNG",
+        "affiliation": "RICH",
+        "time": "2:40.426",
         "delta_time": ""
       },
       {
         "place": "6",
+        "lane": "5",
+        "id": "128",
+        "name": "Andy MAI",
+        "affiliation": "POCO",
+        "time": "2:41.995",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
         "lane": "6",
-        "id": "156",
-        "name": "Reya ZHAO",
-        "affiliation": "BURN",
-        "time": "3:05.912",
+        "id": "120",
+        "name": "Magnus KING",
+        "affiliation": "RICH",
+        "time": "2:41.567",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "7",
+        "id": "135",
+        "name": "Ryker OLSEN",
+        "affiliation": "LET",
+        "time": "2:39.900",
         "delta_time": ""
       }
     ]
@@ -78,64 +167,1276 @@
       }
     ]
   },
-  "11B": {
-    "event_name": "F 1500 (111) Qual 11B",
-    "event_number": "11B",
+  "12B": {
+    "event_name": "M 1500 (111) Qual 12B",
+    "event_number": "12B",
     "gun_time": "",
-    "header": "UNOFFICIAL,F 1500 (111) Qual 11B,nwi,11B,1,1,11B-1-01,AUTO,6",
+    "header": "OFFICIAL,M 1500 (111) Qual 12B,nwi,12B,1,1,12B-1-01,AUTO,7",
     "results": [
       {
-        "place": "",
-        "lane": "1",
-        "id": "144",
-        "name": "Dain SONG",
-        "affiliation": "POCO",
-        "time": "",
+        "place": "1",
+        "lane": "2",
+        "id": "112",
+        "name": "Adam GYORI",
+        "affiliation": "BURN",
+        "time": "2:32.120",
         "delta_time": ""
       },
       {
-        "place": "",
+        "place": "7",
+        "lane": "1",
+        "id": "113",
+        "name": "Xander HAAHEIM",
+        "affiliation": "KEL",
+        "time": "2:40.081",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "3",
+        "id": "152",
+        "name": "Arthur YI",
+        "affiliation": "POCO",
+        "time": "2:33.288",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "4",
+        "id": "109",
+        "name": "Connor CRAIG",
+        "affiliation": "CAL",
+        "time": "2:32.974",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "5",
+        "id": "117",
+        "name": "Cyrus HO",
+        "affiliation": "RICH",
+        "time": "2:32.698",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "6",
+        "id": "149",
+        "name": "Gavin TYRRELL",
+        "affiliation": "CAL",
+        "time": "2:32.536",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "7",
+        "id": "134",
+        "name": "Samuel O'BRIEN",
+        "affiliation": "BURN",
+        "time": "2:32.754",
+        "delta_time": ""
+      }
+    ]
+  },
+  "13B": {
+    "event_name": "M 1500 (111) Qual 13B",
+    "event_number": "13B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Qual 13B,nwi,13B,1,1,13B-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "2",
+        "lane": "1",
+        "id": "143",
+        "name": "Sam (Yutong) SHI",
+        "affiliation": "BC",
+        "time": "2:43.618",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
         "lane": "2",
+        "id": "136",
+        "name": "Lucas PARK",
+        "affiliation": "LAN",
+        "time": "2:49.261",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "3",
+        "id": "130",
+        "name": "Yuma MCEACHERN",
+        "affiliation": "YEL",
+        "time": "2:43.905",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "4",
+        "id": "107",
+        "name": "Lucas CHEN",
+        "affiliation": "POCO",
+        "time": "2:43.774",
+        "delta_time": ""
+      },
+      {
+        "place": "1",
+        "lane": "5",
+        "id": "106",
+        "name": "Jashjit CHAUHAN",
+        "affiliation": "MAT",
+        "time": "2:43.372",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "6",
+        "id": "133",
+        "name": "Runyao Sunny NIE",
+        "affiliation": "BC",
+        "time": "2:52.982",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "7",
+        "id": "150",
+        "name": "Matthew WILSON",
+        "affiliation": "CAL",
+        "time": "2:45.388",
+        "delta_time": ""
+      }
+    ]
+  },
+  "17A": {
+    "event_name": "F 1000 (111) Qual 17A",
+    "event_number": "17A",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1000 (111) Qual 17A,nwi,17A,1,1,17A-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
+        "lane": "5",
+        "id": "121",
+        "name": "Alivia LAM",
+        "affiliation": "RICH",
+        "time": "1:45.236",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "3",
+        "id": "141",
+        "name": "Keanna ROYCE",
+        "affiliation": "POCO",
+        "time": "1:46.231",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "122",
+        "name": "Julianne LAZZARI",
+        "affiliation": "CAL",
+        "time": "1:48.146",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "132",
+        "name": "Sadie NEIL",
+        "affiliation": "CAL",
+        "time": "2:27.103",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "4",
+        "id": "111",
+        "name": "Alice Yaxuan GUO",
+        "affiliation": "RICH",
+        "time": "2:27.935",
+        "delta_time": ""
+      }
+    ]
+  },
+  "14A": {
+    "event_name": "F 1500 (111) Fin 14A",
+    "event_number": "14A",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1500 (111) Fin 14A,nwi,14A,1,1,14A-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "114",
+        "name": "Gloria HAN",
+        "affiliation": "POCO",
+        "time": "2:36.018",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "6",
+        "id": "100",
+        "name": "Zosia ADELMAN",
+        "affiliation": "LET",
+        "time": "2:36.140",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "7",
+        "id": "121",
+        "name": "Alivia LAM",
+        "affiliation": "RICH",
+        "time": "2:36.372",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "2",
+        "id": "138",
+        "name": "Claire PEAKE",
+        "affiliation": "LET",
+        "time": "2:37.515",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "3",
+        "id": "141",
+        "name": "Keanna ROYCE",
+        "affiliation": "POCO",
+        "time": "2:38.292",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "5",
+        "id": "153",
+        "name": "Emma YUN",
+        "affiliation": "TPE",
+        "time": "2:41.462",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "4",
+        "id": "122",
+        "name": "Julianne LAZZARI",
+        "affiliation": "CAL",
+        "time": "2:41.760",
+        "delta_time": ""
+      }
+    ]
+  },
+  "14B": {
+    "event_name": "F 1500 (111) Fin 14B",
+    "event_number": "14B",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1500 (111) Fin 14B,nwi,14B,1,1,14B-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "125",
+        "name": "Alexa LIM",
+        "affiliation": "POCO",
+        "time": "2:54.115",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "5",
         "id": "123",
         "name": "Monet LEGAULT-GIRAUD",
         "affiliation": "BC",
-        "time": "",
+        "time": "2:54.194",
         "delta_time": ""
       },
       {
-        "place": "",
+        "place": "3",
+        "lane": "1",
+        "id": "131",
+        "name": "Alexandra MUELLER",
+        "affiliation": "BC",
+        "time": "2:54.293",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "2",
+        "id": "126",
+        "name": "June LYNCH",
+        "affiliation": "PR",
+        "time": "2:54.415",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "3",
+        "id": "132",
+        "name": "Sadie NEIL",
+        "affiliation": "CAL",
+        "time": "2:54.562",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "6",
+        "id": "111",
+        "name": "Alice Yaxuan GUO",
+        "affiliation": "RICH",
+        "time": "2:54.797",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "7",
+        "id": "155",
+        "name": "Linna ZEIBIN",
+        "affiliation": "BC",
+        "time": "2:58.746",
+        "delta_time": ""
+      }
+    ]
+  },
+  "14C": {
+    "event_name": "F 1500 (111) Fin 14C",
+    "event_number": "14C",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1500 (111) Fin 14C,nwi,14C,1,1,14C-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "144",
+        "name": "Dain SONG",
+        "affiliation": "POCO",
+        "time": "2:51.305",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "3",
+        "id": "156",
+        "name": "Reya ZHAO",
+        "affiliation": "BURN",
+        "time": "2:57.153",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "1",
+        "id": "154",
+        "name": "Katya ZADOROZHNAYA",
+        "affiliation": "RICH",
+        "time": "2:57.663",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "2",
+        "id": "118",
+        "name": "Pareesa JONES",
+        "affiliation": "PG",
+        "time": "2:57.833",
+        "delta_time": ""
+      }
+    ]
+  },
+  "15A": {
+    "event_name": "M 1500 (111) Fin 15A",
+    "event_number": "15A",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Fin 15A,nwi,15A,1,1,15A-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "140",
+        "name": "Aaron RIEHL",
+        "affiliation": "CSSC",
+        "time": "2:33.103",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "4",
+        "id": "101",
+        "name": "Tilman ASTOR",
+        "affiliation": "RICH",
+        "time": "2:33.347",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "105",
+        "name": "Shawn CARDLE",
+        "affiliation": "POCO",
+        "time": "2:33.456",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "7",
+        "id": "134",
+        "name": "Samuel O'BRIEN",
+        "affiliation": "BURN",
+        "time": "2:33.649",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "5",
+        "id": "149",
+        "name": "Gavin TYRRELL",
+        "affiliation": "CAL",
+        "time": "2:33.887",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "6",
+        "id": "117",
+        "name": "Cyrus HO",
+        "affiliation": "RICH",
+        "time": "2:33.987",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "3",
+        "id": "112",
+        "name": "Adam GYORI",
+        "affiliation": "BURN",
+        "time": "3:16.707",
+        "delta_time": ""
+      }
+    ]
+  },
+  "15B": {
+    "event_name": "M 1500 (111) Fin 15B",
+    "event_number": "15B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Fin 15B,nwi,15B,1,1,15B-1-01,AUTO,7",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "109",
+        "name": "Connor CRAIG",
+        "affiliation": "CAL",
+        "time": "2:36.592",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "116",
+        "name": "Angus HICKS",
+        "affiliation": "CAL",
+        "time": "2:36.697",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "3",
+        "id": "152",
+        "name": "Arthur YI",
+        "affiliation": "POCO",
+        "time": "2:36.899",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "6",
+        "id": "110",
+        "name": "Mattias DANIELS",
+        "affiliation": "RM",
+        "time": "2:37.011",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "4",
+        "id": "103",
+        "name": "Jacob BEESLEY",
+        "affiliation": "KAM",
+        "time": "2:37.161",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "5",
+        "id": "145",
+        "name": "Callum STUART",
+        "affiliation": "KEL",
+        "time": "2:40.790",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "7",
+        "id": "113",
+        "name": "Xander HAAHEIM",
+        "affiliation": "KEL",
+        "time": "2:41.723",
+        "delta_time": ""
+      }
+    ]
+  },
+  "16A": {
+    "event_name": "M 1500 (111) Fin 16A",
+    "event_number": "16A",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Fin 16A,nwi,16A,1,1,16A-1-01,AUTO,8",
+    "results": [
+      {
+        "place": "1",
+        "lane": "5",
+        "id": "108",
+        "name": "Zion CHOI",
+        "affiliation": "BC",
+        "time": "2:39.412",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "1",
+        "id": "151",
+        "name": "Nathan XU",
+        "affiliation": "BC",
+        "time": "2:39.506",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "115",
+        "name": "Victor HE",
+        "affiliation": "BC",
+        "time": "2:39.951",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "7",
+        "id": "106",
+        "name": "Jashjit CHAUHAN",
+        "affiliation": "MAT",
+        "time": "2:40.342",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "6",
+        "id": "135",
+        "name": "Ryker OLSEN",
+        "affiliation": "LET",
+        "time": "2:41.940",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "8",
+        "id": "143",
+        "name": "Sam (Yutong) SHI",
+        "affiliation": "BC",
+        "time": "2:42.004",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "3",
+        "id": "129",
+        "name": "Seiya MCEACHERN",
+        "affiliation": "YEL",
+        "time": "2:42.303",
+        "delta_time": ""
+      },
+      {
+        "place": "8",
+        "lane": "4",
+        "id": "142",
+        "name": "Arjen SANDER",
+        "affiliation": "VAN",
+        "time": "3:11.833",
+        "delta_time": ""
+      }
+    ]
+  },
+  "16B": {
+    "event_name": "M 1500 (111) Fin 16B",
+    "event_number": "16B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1500 (111) Fin 16B,nwi,16B,1,1,16B-1-01,AUTO,8",
+    "results": [
+      {
+        "place": "1",
+        "lane": "1",
+        "id": "124",
+        "name": "Ethan LEUNG",
+        "affiliation": "RICH",
+        "time": "2:42.053",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "7",
+        "id": "127",
+        "name": "Peter MAHON",
+        "affiliation": "YEL",
+        "time": "2:42.294",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "5",
+        "id": "130",
+        "name": "Yuma MCEACHERN",
+        "affiliation": "YEL",
+        "time": "2:44.427",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "6",
+        "id": "150",
+        "name": "Matthew WILSON",
+        "affiliation": "CAL",
+        "time": "2:44.886",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "8",
+        "id": "139",
+        "name": "Anhao QIAO",
+        "affiliation": "VAN",
+        "time": "2:45.006",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "2",
+        "id": "120",
+        "name": "Magnus KING",
+        "affiliation": "RICH",
+        "time": "2:45.202",
+        "delta_time": ""
+      },
+      {
+        "place": "7",
+        "lane": "4",
+        "id": "107",
+        "name": "Lucas CHEN",
+        "affiliation": "POCO",
+        "time": "2:45.894",
+        "delta_time": ""
+      },
+      {
+        "place": "8",
+        "lane": "3",
+        "id": "128",
+        "name": "Andy MAI",
+        "affiliation": "POCO",
+        "time": "2:45.983",
+        "delta_time": ""
+      }
+    ]
+  },
+  "16C": {
+    "event_name": "M 1500 (111) Fin 16C",
+    "event_number": "16C",
+    "gun_time": "",
+    "header": "UNOFFICIAL,M 1500 (111) Fin 16C,nwi,16C,1,1,16C-1-01,AUTO,6",
+    "results": [
+      {
+        "place": "1",
+        "lane": "6",
+        "id": "137",
+        "name": "Zion PARK",
+        "affiliation": "BC",
+        "time": "2:44.635",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "4",
+        "id": "133",
+        "name": "Runyao Sunny NIE",
+        "affiliation": "BC",
+        "time": "2:46.329",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "3",
+        "id": "119",
+        "name": "Christopher KENDRICK",
+        "affiliation": "CAL",
+        "time": "2:47.249",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "147",
+        "name": "Zack THIBEAULT",
+        "affiliation": "LAN",
+        "time": "2:48.744",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "2",
+        "id": "136",
+        "name": "Lucas PARK",
+        "affiliation": "LAN",
+        "time": "2:53.751",
+        "delta_time": ""
+      },
+      {
+        "place": "6",
+        "lane": "5",
+        "id": "200",
+        "name": "Jesse THIBEAULT",
+        "affiliation": "LAN",
+        "time": "3:38.912",
+        "delta_time": ""
+      }
+    ]
+  },
+  "17B": {
+    "event_name": "F 1000 (111) Qual 17B",
+    "event_number": "17B",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1000 (111) Qual 17B,nwi,17B,1,1,17B-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
         "lane": "3",
         "id": "114",
         "name": "Gloria HAN",
         "affiliation": "POCO",
-        "time": "",
+        "time": "1:47.593",
         "delta_time": ""
       },
       {
-        "place": "",
-        "lane": "4",
-        "id": "155",
-        "name": "Linna ZEIBIN",
-        "affiliation": "BC",
-        "time": "",
-        "delta_time": ""
-      },
-      {
-        "place": "",
+        "place": "2",
         "lane": "5",
+        "id": "144",
+        "name": "Dain SONG",
+        "affiliation": "POCO",
+        "time": "1:48.453",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "1",
         "id": "138",
         "name": "Claire PEAKE",
         "affiliation": "LET",
-        "time": "",
+        "time": "1:48.539",
         "delta_time": ""
       },
       {
-        "place": "",
-        "lane": "6",
+        "place": "4",
+        "lane": "4",
+        "id": "100",
+        "name": "Zosia ADELMAN",
+        "affiliation": "LET",
+        "time": "1:48.777",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "2",
+        "id": "153",
+        "name": "Emma YUN",
+        "affiliation": "TPE",
+        "time": "1:48.850",
+        "delta_time": ""
+      }
+    ]
+  },
+  "18A": {
+    "event_name": "F 1000 (111) Qual 18A",
+    "event_number": "18A",
+    "gun_time": "",
+    "header": "UNOFFICIAL,F 1000 (111) Qual 18A,nwi,18A,1,1,18A-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "3",
+        "id": "125",
+        "name": "Alexa LIM",
+        "affiliation": "POCO",
+        "time": "1:53.289",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "4",
+        "id": "131",
+        "name": "Alexandra MUELLER",
+        "affiliation": "BC",
+        "time": "1:53.406",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "156",
+        "name": "Reya ZHAO",
+        "affiliation": "BURN",
+        "time": "1:57.051",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "118",
+        "name": "Pareesa JONES",
+        "affiliation": "PG",
+        "time": "1:58.983",
+        "delta_time": ""
+      }
+    ]
+  },
+  "18B": {
+    "event_name": "F 1000 (111) Qual 18B",
+    "event_number": "18B",
+    "gun_time": "",
+    "header": "OFFICIAL,F 1000 (111) Qual 18B,nwi,18B,1,1,18B-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "126",
+        "name": "June LYNCH",
+        "affiliation": "PR",
+        "time": "1:51.029",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "1",
+        "id": "123",
+        "name": "Monet LEGAULT-GIRAUD",
+        "affiliation": "BC",
+        "time": "1:51.542",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "2",
+        "id": "155",
+        "name": "Linna ZEIBIN",
+        "affiliation": "BC",
+        "time": "1:52.660",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "3",
         "id": "154",
         "name": "Katya ZADOROZHNAYA",
         "affiliation": "RICH",
+        "time": "1:52.985",
+        "delta_time": ""
+      }
+    ]
+  },
+  "19A": {
+    "event_name": "M 1000 (111) Qual 19A",
+    "event_number": "19A",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 19A,nwi,19A,1,1,19A-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
+        "lane": "5",
+        "id": "112",
+        "name": "Adam GYORI",
+        "affiliation": "BURN",
+        "time": "1:37.571",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "1",
+        "id": "101",
+        "name": "Tilman ASTOR",
+        "affiliation": "RICH",
+        "time": "1:37.693",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "4",
+        "id": "149",
+        "name": "Gavin TYRRELL",
+        "affiliation": "CAL",
+        "time": "1:37.864",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "2",
+        "id": "152",
+        "name": "Arthur YI",
+        "affiliation": "POCO",
+        "time": "1:38.153",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "3",
+        "id": "103",
+        "name": "Jacob BEESLEY",
+        "affiliation": "KAM",
+        "time": "1:38.793",
+        "delta_time": ""
+      }
+    ]
+  },
+  "19B": {
+    "event_name": "M 1000 (111) Qual 19B",
+    "event_number": "19B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 19B,nwi,19B,1,1,19B-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "140",
+        "name": "Aaron RIEHL",
+        "affiliation": "CSSC",
+        "time": "1:37.516",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "5",
+        "id": "116",
+        "name": "Angus HICKS",
+        "affiliation": "CAL",
+        "time": "1:37.633",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "1",
+        "id": "109",
+        "name": "Connor CRAIG",
+        "affiliation": "CAL",
+        "time": "1:37.882",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "2",
+        "id": "110",
+        "name": "Mattias DANIELS",
+        "affiliation": "RM",
+        "time": "1:38.226",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "3",
+        "id": "134",
+        "name": "Samuel O'BRIEN",
+        "affiliation": "BURN",
+        "time": "1:38.646",
+        "delta_time": ""
+      }
+    ]
+  },
+  "20A": {
+    "event_name": "M 1000 (111) Qual 20A",
+    "event_number": "20A",
+    "gun_time": "",
+    "header": "UNOFFICIAL,M 1000 (111) Qual 20A,nwi,20A,1,1,20A-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "105",
+        "name": "Shawn CARDLE",
+        "affiliation": "POCO",
+        "time": "1:38.669",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "145",
+        "name": "Callum STUART",
+        "affiliation": "KEL",
+        "time": "1:39.743",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "5",
+        "id": "124",
+        "name": "Ethan LEUNG",
+        "affiliation": "RICH",
+        "time": "1:40.623",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "135",
+        "name": "Ryker OLSEN",
+        "affiliation": "LET",
+        "time": "1:41.253",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "3",
+        "id": "150",
+        "name": "Matthew WILSON",
+        "affiliation": "CAL",
+        "time": "1:46.026",
+        "delta_time": ""
+      }
+    ]
+  },
+  "20B": {
+    "event_name": "M 1000 (111) Qual 20B",
+    "event_number": "20B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 20B,nwi,20B,1,1,20B-1-01,AUTO,5",
+    "results": [
+      {
+        "place": "1",
+        "lane": "3",
+        "id": "117",
+        "name": "Cyrus HO",
+        "affiliation": "RICH",
+        "time": "1:42.003",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "106",
+        "name": "Jashjit CHAUHAN",
+        "affiliation": "MAT",
+        "time": "1:42.149",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "4",
+        "id": "113",
+        "name": "Xander HAAHEIM",
+        "affiliation": "KEL",
+        "time": "1:42.548",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "129",
+        "name": "Seiya MCEACHERN",
+        "affiliation": "YEL",
+        "time": "1:42.684",
+        "delta_time": ""
+      },
+      {
+        "place": "5",
+        "lane": "5",
+        "id": "130",
+        "name": "Yuma MCEACHERN",
+        "affiliation": "YEL",
+        "time": "1:42.815",
+        "delta_time": ""
+      }
+    ]
+  },
+  "21A": {
+    "event_name": "M 1000 (111) Qual 21A",
+    "event_number": "21A",
+    "gun_time": "",
+    "header": "UNOFFICIAL,M 1000 (111) Qual 21A,nwi,21A,1,1,21A-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "2",
+        "id": "127",
+        "name": "Peter MAHON",
+        "affiliation": "YEL",
+        "time": "1:42.148",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "3",
+        "id": "115",
+        "name": "Victor HE",
+        "affiliation": "BC",
+        "time": "1:42.762",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "1",
+        "id": "137",
+        "name": "Zion PARK",
+        "affiliation": "BC",
+        "time": "1:44.255",
+        "delta_time": ""
+      },
+      {
+        "place": "DNF",
+        "lane": "4",
+        "id": "151",
+        "name": "Nathan XU",
+        "affiliation": "BC",
         "time": "",
+        "delta_time": ""
+      }
+    ]
+  },
+  "21B": {
+    "event_name": "M 1000 (111) Qual 21B",
+    "event_number": "21B",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 21B,nwi,21B,1,1,21B-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "142",
+        "name": "Arjen SANDER",
+        "affiliation": "VAN",
+        "time": "1:44.850",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "119",
+        "name": "Christopher KENDRICK",
+        "affiliation": "CAL",
+        "time": "1:46.288",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "3",
+        "id": "200",
+        "name": "Jesse THIBEAULT",
+        "affiliation": "LAN",
+        "time": "1:48.254",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "1",
+        "id": "133",
+        "name": "Runyao Sunny NIE",
+        "affiliation": "BC",
+        "time": "1:49.811",
+        "delta_time": ""
+      }
+    ]
+  },
+  "21C": {
+    "event_name": "M 1000 (111) Qual 21C",
+    "event_number": "21C",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 21C,nwi,21C,1,1,21C-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "4",
+        "id": "120",
+        "name": "Magnus KING",
+        "affiliation": "RICH",
+        "time": "1:45.570",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "2",
+        "id": "107",
+        "name": "Lucas CHEN",
+        "affiliation": "POCO",
+        "time": "1:46.122",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "1",
+        "id": "147",
+        "name": "Zack THIBEAULT",
+        "affiliation": "LAN",
+        "time": "1:47.664",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "3",
+        "id": "136",
+        "name": "Lucas PARK",
+        "affiliation": "LAN",
+        "time": "1:54.747",
+        "delta_time": ""
+      }
+    ]
+  },
+  "21D": {
+    "event_name": "M 1000 (111) Qual 21D",
+    "event_number": "21D",
+    "gun_time": "",
+    "header": "OFFICIAL,M 1000 (111) Qual 21D,nwi,21D,1,1,21D-1-01,AUTO,4",
+    "results": [
+      {
+        "place": "1",
+        "lane": "2",
+        "id": "108",
+        "name": "Zion CHOI",
+        "affiliation": "BC",
+        "time": "1:45.735",
+        "delta_time": ""
+      },
+      {
+        "place": "2",
+        "lane": "1",
+        "id": "143",
+        "name": "Sam (Yutong) SHI",
+        "affiliation": "BC",
+        "time": "1:46.023",
+        "delta_time": ""
+      },
+      {
+        "place": "3",
+        "lane": "3",
+        "id": "139",
+        "name": "Anhao QIAO",
+        "affiliation": "VAN",
+        "time": "1:46.469",
+        "delta_time": ""
+      },
+      {
+        "place": "4",
+        "lane": "4",
+        "id": "128",
+        "name": "Andy MAI",
+        "affiliation": "POCO",
+        "time": "1:46.707",
         "delta_time": ""
       }
     ]

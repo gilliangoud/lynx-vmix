@@ -176,6 +176,12 @@ impl LynxParser {
         }
     }
     
+    fn sanitize(input: &str) -> String {
+        input.chars()
+            .filter(|c| !c.is_control())
+            .collect()
+    }
+
     fn parse_csv_string(&mut self, text: &str) {
         let records: Vec<&str> = text.split(';').collect();
 
@@ -185,7 +191,10 @@ impl LynxParser {
         }
 
         for record in records {
-            let clean = record.trim();
+            let raw_clean = record.trim();
+            if raw_clean.is_empty() { continue; }
+            
+            let clean = Self::sanitize(raw_clean);
             if clean.is_empty() { continue; }
             
             // "UNOFFICIAL,15B Group 1 1500m 111m,nwi,15B,1,01,15B-1-01,AUTO,7"
@@ -217,7 +226,7 @@ impl LynxParser {
             
             // Fields: Place, Lane, ID, Name, Affiliation, Time
             let fields: Vec<&str> = clean.split(',').collect();
-            let fields_clean: Vec<String> = fields.iter().map(|s| s.trim().to_string()).collect();
+            let fields_clean: Vec<String> = fields.iter().map(|s| Self::sanitize(s.trim())).collect();
             
             if fields_clean.is_empty() { continue; }
 
@@ -268,6 +277,9 @@ impl LynxParser {
                      s.results.push(res.clone());
                  }
                  
+                 // Sort Live Results
+                 crate::state::sort_results(&mut s.results);
+                 
                      // Update History
                  if !s.event_number.is_empty() {
                      let key = s.event_number.clone();
@@ -289,8 +301,11 @@ impl LynxParser {
                              } else {
                                  race.results.push(res.clone());
                              }
+                             // Sort History Results
+                             crate::state::sort_results(&mut race.results);
                          })
                          .or_insert_with(|| {
+                             // Initial sort logic if needed (vec![res] is already sorted)
                              crate::state::RaceData {
                                  event_name: evt_name,
                                  event_number: key,
@@ -406,5 +421,7 @@ impl LynxParser {
         // Legacy
     }
 }
+
+
 
 
