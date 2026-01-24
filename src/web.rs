@@ -29,7 +29,7 @@ async fn index() -> Html<&'static str> {
         <style>
             body { font-family: monospace; background: #000; color: #0f0; padding: 20px; }
             h1 { border-bottom: 1px solid #333; }
-            #time { font-size: 4em; font-weight: bold; }
+            #time, #gun-time { font-size: 4em; font-weight: bold; }
             table { width: 100%; border-collapse: collapse; margin-top: 20px; }
             th, td { border: 1px solid #333; padding: 5px; text-align: left; }
             th { background: #111; }
@@ -42,6 +42,7 @@ async fn index() -> Html<&'static str> {
                     let data = json[0];
                     
                     document.getElementById('time').innerText = data.time || "--:--.--";
+                    document.getElementById('gun-time').innerText = data.gun_time || "--:--.--";
                     
                     let tbody = document.getElementById('results');
                     tbody.innerHTML = '';
@@ -64,7 +65,16 @@ async fn index() -> Html<&'static str> {
     </head>
     <body>
         <h1>Lynx vMix Bridge - Live</h1>
-        <div id="time">Running Time</div>
+        <div style="display: flex; gap: 50px;">
+            <div>
+                <h3>Running Time</h3>
+                <div id="time">--:--.--</div>
+            </div>
+            <div>
+                <h3>Gun Time</h3>
+                <div id="gun-time">--:--.--</div>
+            </div>
+        </div>
         <table>
             <thead>
                 <tr>
