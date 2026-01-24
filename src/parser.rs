@@ -1,5 +1,5 @@
 use crate::state::SharedState;
-use log::{info, debug, error};
+use log::debug;
 
 // Byte constants based on the LSS script provided (for binary fallback)
 const GROUP_INITIALIZE: u8 = 0x10;
@@ -41,10 +41,15 @@ impl LynxParser {
 
         let first_byte = self.buffer[0];
 
-        // 1. LSS Binary (Starts with Group Code 0x10 - 0x18)
         if first_byte >= 0x10 && first_byte <= 0x18 {
              self.process_binary_lss();
              return;
+        }
+
+        // DEBUG: Print buffer as string (lossy) to see what we are getting
+        let raw_str = String::from_utf8_lossy(&self.buffer);
+        if !raw_str.trim().is_empty() {
+            debug!("RAW BUFFER: {:?}", raw_str);
         }
 
         // 2. Message Signature check (0x01 'M' 0x02)
@@ -58,7 +63,7 @@ impl LynxParser {
         let has_null = self.buffer.iter().any(|&b| b == 0);
         let has_semi = self.buffer.iter().any(|&b| b == b';');
         let has_comma = self.buffer.iter().any(|&b| b == b',');
-        let has_colon = self.buffer.iter().any(|&b| b == b':'); 
+        let has_time_chars = self.buffer.iter().any(|&b| b == b':' || b == b'.'); 
 
         if has_null {
              self.process_csv_utf16();
@@ -66,7 +71,7 @@ impl LynxParser {
              // ASCII handling
              if has_semi || has_comma {
                  self.process_csv_ascii();
-             } else if has_colon {
+             } else if has_time_chars {
                  self.process_ascii_time();
              } else {
                  if self.buffer.len() > 100 {
@@ -101,11 +106,13 @@ impl LynxParser {
             }
 
             // Standard Running Time
-            // Find the last part that looks like a time (contains ':') AND isn't the gun start packet itself if it was mixed?
-            // Usually *start comes alone.
-            // But if we have "*start10..." standard time parsing might trip or just ignore it if we are careful.
-            
-            let last_valid_time = parts.iter().rfind(|p| p.contains(':') && !p.contains(',') && !p.contains(';') && !p.contains("*start"));
+            // Find the last part that looks like a time (contains ':' or '.') AND isn't the gun start packet
+            let last_valid_time = parts.iter().rfind(|p| {
+                let is_simple = p.chars().all(|c| c.is_ascii_digit() || c == ':' || c == '.');
+                let has_digit = p.chars().any(|c| c.is_ascii_digit());
+                let has_sep = p.contains(':') || p.contains('.');
+                is_simple && has_digit && has_sep && !p.contains("*start")
+            });
             
             if let Some(time_str) = last_valid_time {
                  debug!("Parsed ASCII Time: '{}'", time_str);
@@ -244,9 +251,18 @@ impl LynxParser {
                  
                  let mut s = self.state.write();
                  
+                 debug!("Result Candidate: {:?}", fields_clean);
+
                  // Upsert into Live Results
-                 if let Some(existing_idx) = s.results.iter().position(|r| r.lane == res.lane && !r.lane.is_empty()) {
-                     s.results[existing_idx] = res.clone();
+                 // Try to match by Lane first, then Place, then ID
+                 let existing_idx = s.results.iter().position(|r| {
+                     (!res.lane.is_empty() && r.lane == res.lane) ||
+                     (res.lane.is_empty() && !res.place.is_empty() && r.place == res.place) ||
+                     (res.lane.is_empty() && res.place.is_empty() && !res.id.is_empty() && r.id == res.id)
+                 });
+
+                 if let Some(idx) = existing_idx {
+                     s.results[idx] = res.clone();
                  } else {
                      s.results.push(res.clone());
                  }
@@ -259,8 +275,14 @@ impl LynxParser {
                      
                      s.races.entry(key.clone())
                          .and_modify(|race| {
-                             if let Some(existing_idx) = race.results.iter().position(|r| r.lane == res.lane && !r.lane.is_empty()) {
-                                 race.results[existing_idx] = res.clone();
+                             let hist_idx = race.results.iter().position(|r| {
+                                 (!res.lane.is_empty() && r.lane == res.lane) ||
+                                 (res.lane.is_empty() && !res.place.is_empty() && r.place == res.place) ||
+                                 (res.lane.is_empty() && res.place.is_empty() && !res.id.is_empty() && r.id == res.id)
+                             });
+                             
+                             if let Some(idx) = hist_idx {
+                                 race.results[idx] = res.clone();
                              } else {
                                  race.results.push(res.clone());
                              }
